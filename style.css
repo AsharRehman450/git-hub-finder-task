@@ -1,0 +1,170 @@
+    /* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2d2d44;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fd4f78; /* Bright pinkish color for the heading */
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.search-container {
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    width: 60%;
+    max-width: 400px;
+    margin-right: 10px;
+    border: 2px solid #fd4f78;
+    border-radius: 50px;
+    outline: none;
+    background-color: #33354d;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#searchInput:focus {
+    border-color: #fd4f78;
+}
+
+#searchBtn {
+    padding: 12px 20px;
+    background-color: #fd4f78; /* Same bright pinkish color for button */
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#searchBtn:hover {
+    background-color: #ff4f89;
+}
+
+#searchBtn:active {
+    background-color: #e83d5c;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    text-align: center;
+    background-color: #33354d;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 2.2rem;
+    color: #fd4f78;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-size: 1.3rem;
+    color: #4ecdc4;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 1.1rem;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+}
+
+.view-profile-btn {
+    display: inline-block;
+    background-color: #00bcd4; /* Turquoise color for the profile button */
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.view-profile-btn:hover {
+    background-color: #0097a7; /* Darker turquoise on hover */
+}
+
+.view-profile-btn:active {
+    background-color: #007f87; /* Even darker turquoise on click */
+}
+
+.stats {
+    margin-top: 20px;
+}
+
+.badge {
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 8px;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+/* Public Repos (Badge) Color */
+.repos {
+    background-color: #ff5733; /* Bright red-orange color for Public Repos */
+}
+
+/* Followers (Badge) Color */
+.followers {
+    background-color: #28a745; /* Fresh green color for Followers */
+}
+
+/* Following (Badge) Color */
+.following {
+    background-color: #9b59b6; /* Purple color for Following */
+}
+
+/* Error Message */
+.error-message {
+    color: #ff4f89;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fd4f78;
+}
